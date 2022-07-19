@@ -1,0 +1,15 @@
+{
+	"stitches": {
+		"prefix": "stitches",
+		"body": [
+			"import { styled } from '../../styles/stitches.config';",
+			"",
+			"export const Container = styled('div', {",
+			"",
+			"  variants: {},",
+			"});",
+			""
+		],
+		"description": "stitches"
+	}
+}

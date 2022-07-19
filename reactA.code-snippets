@@ -1,0 +1,21 @@
+{
+	"reactA": {
+		"prefix": "reactA",
+		"body": [
+			"interface ExampleProps {",
+			"",
+			"}",
+			"",
+			"export const Example = ({ }: ExampleProps) => {",
+			"  return (",
+			"    <div>",
+			"",
+			"    </div>",
+			"  );",
+			"};",
+			""
+		],
+		"description": "reactA"
+	}
+}
+

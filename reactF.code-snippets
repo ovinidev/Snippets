@@ -1,0 +1,20 @@
+{
+	"reactF": {
+		"prefix": "reactF",
+		"body": [
+			"interface ExampleProps {",
+			"",
+			"}",
+			"",
+			"export function Example({ }: ExampleProps) {",
+			"  return (",
+			"    <div>",
+			"",
+			"    </div>",
+			"  );",
+			"}",
+			""
+		],
+		"description": "reactF"
+	}
+}

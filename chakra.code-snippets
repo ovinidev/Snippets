@@ -1,0 +1,21 @@
+{
+	"chakra": {
+		"prefix": "chakra",
+		"body": [
+			"import { Flex } from '@chakra-ui/react';",
+			"",
+			"interface ExampleProps {",
+			"}",
+			"",
+			"export const Example = ({ }: ExampleProps) => {",
+			"  return (",
+			"    <Flex>",
+			"",
+			"    </Flex>",
+			"  );",
+			"};",
+			""
+		],
+		"description": "chakra"
+	}
+}
