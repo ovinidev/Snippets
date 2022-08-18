@@ -1,0 +1,11 @@
+{
+  "fetching data ": {
+    "prefix": "queryPrefetch",
+    "body": [
+      "  const { data } = useQuery(['users', { id: pageId }], {",
+      "    staleTime: 1000 * 5,",
+      "  });"
+    ],
+    "description": "fetching data "
+  }
+}

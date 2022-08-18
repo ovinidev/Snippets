@@ -1,0 +1,15 @@
+{
+  "page next": {
+    "prefix": "nextPage",
+    "body": [
+      "export default function Page() {",
+      "",
+      "  return (",
+      "    <>",
+      "    </>",
+      "  )",
+      "}"
+    ],
+    "description": "page next"
+  }
+}

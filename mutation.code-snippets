@@ -1,0 +1,18 @@
+{
+  "fetching data ": {
+    "prefix": "mutation",
+    "body": [
+      "  const { error, isLoading, isSuccess, mutateAsync } = useMutation(",
+      "    async (user: CreateUserInput) => {",
+      "      await createUser(user);",
+      "    },",
+      "    {",
+      "      onSuccess: () => {",
+      "        queryClient.invalidateQueries(['users']);",
+      "      },",
+      "    },",
+      "  );"
+    ],
+    "description": "fetching data "
+  }
+}

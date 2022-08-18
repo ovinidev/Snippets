@@ -1,0 +1,19 @@
+{
+  "fetching data ": {
+    "prefix": "query",
+    "body": [
+      "  const { data, isLoading, error } = useQuery(",
+      "    ['data', { page: 1 }],",
+      "    async () => {",
+      "      const { data } = await axios.get('');",
+      "",
+      "      return data;",
+      "    },",
+      "    {",
+      "      staleTime: 1000 * 5,",
+      "    },",
+      "  );"
+    ],
+    "description": "fetching data "
+  }
+}
