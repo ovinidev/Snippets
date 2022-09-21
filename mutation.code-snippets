@@ -1,18 +1,18 @@
 {
-  "fetching data ": {
+  "React query useMutation": {
     "prefix": "mutation",
     "body": [
-      "  const { error, isLoading, isSuccess, mutateAsync } = useMutation(",
-      "    async (user: CreateUserInput) => {",
-      "      await createUser(user);",
+      "const { error, isLoading, isSuccess, mutateAsync } = useMutation(",
+      "  async (date: DateExample) => {",
+      "    await createExample(date);",
+      "  },",
+      "  {",
+      "    onSuccess: () => {",
+      "      queryClient.invalidateQueries(['example']);",
       "    },",
-      "    {",
-      "      onSuccess: () => {",
-      "        queryClient.invalidateQueries(['users']);",
-      "      },",
-      "    },",
-      "  );"
+      "  },",
+      ");"
     ],
-    "description": "fetching data "
+    "description": "React query useMutation"
   }
 }

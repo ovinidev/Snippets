@@ -1,23 +1,23 @@
 {
-  "fetching data ": {
+  "React query filter": {
     "prefix": "queryFilter",
     "body": [
-      "  const { data, isLoading, error } = useQuery(",
-      "    ['data', { name: 'input' }],",
-      "    async () => {",
-      "      const { data } = await axios.get('');",
+      "const { data, isLoading, error } = useQuery(",
+      "  ['example', { name: 'input' }],",
+      "  async () => {",
+      "    const { data } = await getExample();",
       "",
-      "      return data;",
-      "    },",
-      "    {",
-      "      keepPreviousData: true,",
-      "      select: (data) =>",
-      "        data.filter((repo: any) => {",
-      "          return repo.name.toLowerCase().includes('input'.toLowerCase());",
-      "        }),",
-      "    },",
-      "  );"
+      "    return data;",
+      "  },",
+      "  {",
+      "    keepPreviousData: true,",
+      "    select: (data) =>",
+      "      data.filter((repo: any) => {",
+      "        return repo.name.toLowerCase().includes('input'.toLowerCase());",
+      "      }),",
+      "  },",
+      ");"
     ],
-    "description": "fetching data "
+    "description": "React query filter"
   }
 }
