@@ -1,0 +1,21 @@
+{
+  "useMutationExample": {
+    "prefix": "useMutation",
+    "body": [
+      "export const useCreateExample = () => {",
+      "  return useMutation(",
+      "    async (data: CreateExampleRequest) => {",
+      "      await createExample(data);",
+      "    },",
+      "    {",
+      "      onSuccess: () => {",
+      "        queryClient.invalidateQueries([\"examples\"]);",
+      "      },",
+      "    }",
+      "  );",
+      "};",
+      ""
+    ],
+    "description": "useMutationExample"
+  }
+}

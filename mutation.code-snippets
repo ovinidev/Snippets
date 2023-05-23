@@ -1,5 +1,5 @@
 {
-  "React query useMutation": {
+  "useMutation": {
     "prefix": "mutation",
     "body": [
       "const { error, isLoading, isSuccess, mutateAsync } = useMutation(",
@@ -8,11 +8,12 @@
       "  },",
       "  {",
       "    onSuccess: () => {",
-      "      queryClient.invalidateQueries(['example']);",
+      "      queryClient.invalidateQueries([\"examples\"]);",
       "    },",
-      "  },",
-      ");"
+      "  }",
+      ");",
+      ""
     ],
-    "description": "React query useMutation"
+    "description": "useMutation"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "next page with chakra": {
+    "prefix": "nextChakra",
+    "body": [
+      "\"use client\";",
+      "import { Flex } from \"@chakra-ui/react\";",
+      "",
+      "export default function Page() {",
+      "  return (",
+      "    <Flex>",
+      "",
+      "    </Flex>",
+      "  );",
+      "}",
+      ""
+    ],
+    "description": "next page with chakra"
+  }
+}

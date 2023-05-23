@@ -1,0 +1,17 @@
+{
+  "useEffect": {
+    "prefix": "effect",
+    "body": [
+      "  useEffect(() => {",
+      "    (async function getData() {",
+      "      try {",
+      "        // Code here",
+      "      } catch (err: any) {",
+      "        throw new Error(err);",
+      "      }",
+      "    }());",
+      "  }, []);"
+    ],
+    "description": "useEffect"
+  }
+}

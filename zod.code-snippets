@@ -1,0 +1,21 @@
+{
+  "schema with zod": {
+    "prefix": "zod",
+    "body": [
+      "const body = request.body;",
+      "",
+      "const exampleBodySchema = z.object({",
+      "	name: z.string({ required_error: 'name is required' }),",
+      "	email: z",
+      "		.string({ required_error: 'email is required' })",
+      "		.email({ message: 'field must be of type email' }),",
+      "	password: z",
+      "		.string({ required_error: 'password is required' })",
+      "		.min(6, { message: 'password must have 6 characters' }),",
+      "});",
+      "",
+      "const { email, name, password } = exampleBodySchema.parse(body);"
+    ],
+    "description": "schema with zod"
+  }
+}

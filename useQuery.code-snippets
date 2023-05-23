@@ -1,0 +1,27 @@
+{
+  "useQueryExample": {
+    "prefix": "useQuery",
+    "body": [
+      "interface UseQueryExample {",
+      "  page: number;",
+      "  pageLength: number;",
+      "}",
+      "",
+      "const useQueryExample = ({ page, pageLength }: UseQueryExample) => {",
+      "  return useQuery(",
+      "    [\"examples\", { page }],",
+      "    async () => {",
+      "      const data = await getExample();",
+      "",
+      "      return data;",
+      "    },",
+      "    {",
+      "      staleTime: 1000 * 60 * 5,",
+      "    }",
+      "  );",
+      "};",
+      ""
+    ],
+    "description": "useQuery"
+  }
+}

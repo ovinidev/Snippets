@@ -1,0 +1,16 @@
+{
+  "testing with vitest": {
+    "prefix": "vitest",
+    "body": [
+      "import \"@testing-library/jest-dom\";",
+      "import { render, screen } from \"@testing-library/react\";",
+      "import { describe, it, expect, vi } from \"vitest\";",
+      "",
+      "describe(\"Test\", () => {",
+      "  it(\"should be able to\", () => {});",
+      "});",
+      ""
+    ],
+    "description": "testing with vitest"
+  }
+}
